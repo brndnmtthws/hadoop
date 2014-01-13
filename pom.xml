@@ -4,7 +4,7 @@
 
     <groupId>org.apache.mesos</groupId>
     <artifactId>hadoop-mesos</artifactId>
-    <version>0.0.5</version>
+    <version>0.0.6</version>
 
     <properties>
         <encoding>UTF-8</encoding>
@@ -32,11 +32,7 @@
         <repository>
             <id>mesosphere-public-repo</id>
             <name>Mesosphere Public Repo</name>
-            <url>http://s3.amazonaws.com/mesosphere-maven-public/</url>
-        </repository>
-        <repository>
-            <id>libs-folder</id>
-            <url>file://${basedir}/lib</url>
+            <url>http://downloads.mesosphere.io/maven</url>
         </repository>
         <repository>
             <id>clojars.org</id>
